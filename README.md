@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap - Personal](https://startbootstrap.com/template/personal/)
 
 [Personal](https://startbootstrap.com/template/personal/) is a personal website template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This template includes 4 unique HTML pages and a working contact form built with [Start Bootstrap Froms](https://startbootstrap.com/solution/contact-forms).
@@ -80,3 +81,6 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE) license.
+=======
+# Imrazfarook.github.io
+>>>>>>> 963e34b71a70240f8a6f55ebfb555b353d0024a6
