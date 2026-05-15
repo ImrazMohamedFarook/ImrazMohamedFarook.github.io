@@ -5,126 +5,81 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content)
-        meta(name='author', content)
+        meta(name='description', content='Contact Imraz Mohamed Farook')
+        meta(name='author', content='Imraz Mohamed Farook')
 
-        title Modern Business - Start Bootstrap Template
+        title Contact | Imraz Mohamed Farook
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
         include includes/css.pug
 
-    body.d-flex.flex-column
+    body.d-flex.flex-column.h-100.bg-light
 
         main.flex-shrink-0
 
             // Navigation
             include includes/navbar.pug
 
-            // Page content
+            // Contact Section
             section.py-5
-
                 .container.px-5
+                    .bg-light.rounded-4.py-5.px-4.px-md-5.shadow-sm
 
-                    // Contact form
-                    .bg-light.rounded-4.py-5.px-4.px-md-5
                         .text-center.mb-5
                             .feature.bg-primary.bg-gradient-primary-to-secondary.text-white.rounded-3.mb-3
                                 i.bi.bi-envelope
-                            h1.fw-bolder Get in touch
-                            p.lead.fw-normal.text-muted.mb-0 Let's work together!
-                        .row.gx-5.justify-content-center
-                            .col-lg-8.col-xl-6
 
-                                // * * * * * * * * * * * * * * *
-                                // * * SB Forms Contact Form * *
-                                // * * * * * * * * * * * * * * *
+                            h1.fw-bolder Get In Touch
 
-                                // This form is pre-integrated with SB Forms.
-                                // To make this form functional, sign up at
-                                // https://startbootstrap.com/solution/contact-forms
-                                // to get an API token!
+                            p.lead.fw-normal.text-muted.mb-0
+                                | Open to engineering, biomedical technology, and research opportunities.
 
-                                form#contactForm(data-sb-form-api-token='API_TOKEN')
+                        .row.justify-content-center
+                            .col-lg-8.col-xl-6.text-center
 
-                                    // Name input
-                                    .form-floating.mb-3
-                                        input#name.form-control(
-                                            type='text',
-                                            placeholder='Enter your name...'
-                                            data-sb-validations='required'
-                                        )
-                                        label(for='name') Full name
-                                        .invalid-feedback(data-sb-feedback='name:required')
-                                            | A name is required.
-                                    
-                                    // Email address input
-                                    .form-floating.mb-3
-                                        input#email.form-control(
-                                            type='email',
-                                            placeholder='name@example.com'
-                                            data-sb-validations='required,email'
-                                        )
-                                        label(for='email') Email address
-                                        .invalid-feedback(data-sb-feedback='email:required')
-                                            | An email is required.
-                                        .invalid-feedback(data-sb-feedback='email:email')
-                                            | Email is not valid.
-                                    
-                                    // Phone number input
-                                    .form-floating.mb-3
-                                        input#phone.form-control(
-                                            type='tel',
-                                            placeholder='(123) 456-7890'
-                                            data-sb-validations='required'
-                                        )
-                                        label(for='phone') Phone number
-                                        .invalid-feedback(data-sb-feedback='phone:required')
-                                            | A phone number is required.
-                                    
-                                    // Message input
-                                    .form-floating.mb-3
-                                        textarea#message.form-control(
-                                            type='text',
-                                            placeholder='Enter your message here...',
-                                            style='height: 10rem;'
-                                            data-sb-validations='required'
-                                        )
-                                        label(for='message') Message
-                                        .invalid-feedback(data-sb-feedback='message:required')
-                                            | A message is required.
+                                p.text-muted.mb-4
+                                    | Feel free to reach out regarding collaborations, engineering opportunities, research projects, or professional connections.
 
-                                    // Submit success message
-                                    //
-                                    // This is what your users will see when the form
-                                    // has successfully submitted
-                                    #submitSuccessMessage.d-none
-                                        .text-center.mb-3
-                                            .fw-bolder Form submission successful!
-                                            | To activate this form, sign up at
-                                            br
-                                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+                                // Email Button
+                                a.btn.btn-primary.btn-lg.px-5.py-3.fs-6.fw-bolder.mb-4(
+                                    href='mailto:Imrazfarook@hotmail.com?subject=Portfolio%20Inquiry'
+                                )
+                                    i.bi.bi-envelope-fill.me-2
+                                    | Email Me
 
-                                    // Submit error message
-                                    //
-                                    // This is what your users will see when there is
-                                    // an error submitting the form
-                                    #submitErrorMessage.d-none
-                                        .text-center.text-danger.mb-3 Error sending message!
+                                // Contact Information
+                                .mb-4
+                                    p.fs-5.mb-2
+                                        strong Email:
+                                    p.text-muted
+                                        | Imrazfarook@hotmail.com
 
-                                    // Submit Button
-                                    .d-grid
-                                        button#submitButton.btn.btn-primary.btn-lg.disabled(type='submit') Submit
+                                // Social Links
+                                .d-flex.justify-content-center.fs-2.gap-4
+
+                                    a.text-gradient(
+                                        href='mailto:Imrazfarook@hotmail.com'
+                                        title='Email'
+                                    )
+                                        i.bi.bi-envelope-fill
+
+                                    a.text-gradient(
+                                        href='https://www.linkedin.com/in/imrazmohamedfarook/'
+                                        target='_blank'
+                                        title='LinkedIn'
+                                    )
+                                        i.bi.bi-linkedin
+
+                                    a.text-gradient(
+                                        href='https://github.com/ImrazMohamedFarook'
+                                        target='_blank'
+                                        title='GitHub'
+                                    )
+                                        i.bi.bi-github
 
         // Footer
         include includes/footer.pug
 
         include includes/scripts.pug
-
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-        // * *                               SB Forms JS                               * *
-        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
